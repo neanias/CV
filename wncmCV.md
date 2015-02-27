@@ -5,17 +5,6 @@ email:  wncmathewson@me.com
 github: https://github.com/neanias
 mobile: +44 (0) 7547 155215
 
-
-Summary
--------
-
-I am currently in my first year at Edinburgh University reading Computer Science.
-Having worked as a junior developer at a technology start up during my gap year, I
-have a good knowledge of using the unix command line and working on linux servers.
-
-This experience gave me a love of problem solving. It also taught me how to work
-as part of a team and to thoroughly test my code before adding it into the codebase.
-
 Employment
 ----------
 
