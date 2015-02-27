@@ -10,14 +10,11 @@ Summary
 -------
 
 I am currently in my first year at Edinburgh University reading Computer Science.
+Having worked as a junior developer at a technology start up during my gap year, I
+have a good knowledge of using the unix command line and working on linux servers.
 
-**The blurb below will be going**
-
-I am currently in my gap year before going to Edinburgh University to read Computer Science
-in 2014. I am looking to earn some money to fund a trip to North America next year, as well
-as getting some useful work experience. My teachers said I was "interesting, thoughtful,
-and talented" with "a sharp mind" and they enjoyed teaching me.
-
+This experience gave me a love of problem solving. It also taught me how to work
+as part of a team and to thoroughly test my code before adding it into the codebase.
 
 Employment
 ----------
