@@ -32,6 +32,7 @@ Employment
     Ruby on Rails Developer, January - July 2014
 
     - Helped maintain Ruby on Rails backend API
+    - Added functionality to Sinatra based tools which are still in use
     - Wrote Ruby scripts to help marketing promote the product
 
 Education
@@ -65,17 +66,24 @@ Projects
 Skills
 ------
 
-- Ruby
-- Working knowledge of Rails and Sinatra
-- Some knowledge of Python
-- Git and git-flow workflow
-- Some knowledge of Jira
-- Well versed in the *-nix command line
+* Ruby
+    - Used Ruby to write an IRC bot using the Cinch framework
+* Rails and Sinatra
+    - Used Sinatra to make a basic web API at a hackathon
+* Python
+    - Updated an API written in Flask at Wordeo
+    - Submitted pull requests to some IRC bots to update features
+* Git and git-flow workflow
+    - Use Git for version control and git-flow as the branching model
+* Working in a Scrum team
+    - Had daily scrum meetings at Wordeo
+    - Used Agile software development
+* Unix command line
+    - Worked on linux servers
 
 Interests
 ---------
 
-- Comics
-- Tea
 - Scottish country dancing (reeling)
+- Rock climbing
 
