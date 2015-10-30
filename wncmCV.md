@@ -16,19 +16,19 @@ Employment
 
 * **Wordeo Ltd.**
 
-    Ruby on Rails Developer, January - July 2014
+    Intern, October 2013
 
-    - Helped maintain Ruby on Rails backend API
-    - Added functionality to Sinatra based tools which are still in use
-    - Wrote Ruby scripts to help marketing promote the product
+    - Worked on tagging clips in a large video library
 
     Technical Intern, November 2013 - January 2014
 
     - Continued tagging clips, but also helped with error logging and tracking down root causes of errors
 
-    Intern, October 2013
+    Ruby on Rails Developer, January - July 2014
 
-    - Worked on tagging clips in a large video library
+    - Helped maintain Ruby on Rails backend API
+    - Added functionality to Sinatra based tools which are still in use
+    - Wrote Ruby scripts to help marketing promote the product
 
 Education
 ---------
