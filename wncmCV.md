@@ -8,6 +8,12 @@ mobile: +44 (0) 7547 155215
 Employment
 ----------
 
+* **Cake Technologies**
+
+    Ruby on Rails Developer, June - July 2015
+
+    - Helped maintain Ruby on Rails backend API
+
 * **Wordeo Ltd.**
 
     Intern, October 2013
@@ -42,8 +48,19 @@ Education
     - Chemistry, B
     - Physics (AS level), A
 
-Projects
---------
+Responsibilities
+----------------
+
+* **Edinburgh University Computer Science and Artificial Intelligence Society (CompSoc)**
+
+    Vice President
+
+    - Organise the monthly tech talks which involves contacting companies and individuals
+      to come and talk to our members about how/what/why they do.
+
+* **Edinburgh Universities' Royal Naval Unit**
+
+    Officer Cadet
 
 * **[EdinSolar](http://edinsolar.org)**
 
@@ -60,13 +77,13 @@ Skills
 * Rails and Sinatra
     - Used Sinatra to make a basic web API at a hackathon
 * Python
-    - Updated an API written in Flask at Wordeo
+    - Maintained an API written in Flask at Wordeo
     - Submitted pull requests to some IRC bots to update features
 * Git and git-flow workflow
     - Use Git for version control and git-flow as the branching model
 * Working in a Scrum team
-    - Had daily scrum meetings at Wordeo
-    - Used Agile software development
+    - Had daily scrum meetings at Wordeo and Cake
+    - Followed an Agile development methodology
 * Unix command line
     - Worked on linux servers
 
