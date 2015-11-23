@@ -3,6 +3,7 @@ William Mathewson
 
 email:  wncmathewson@me.com
 github: https://github.com/neanias
+linkedin: https://uk.linkedin.com/in/william-mathewson-b9a34a80
 mobile: +44 (0) 7547 155215
 
 Employment
