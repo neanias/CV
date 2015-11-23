@@ -36,7 +36,7 @@ Education
 
 * **University of Edinburgh**
 
-    Computer Science (BSc), September 2014 - present
+    Computer Science (BSc), September 2014 - June 2018 (Expected)
 
 * **Eton College**
 
