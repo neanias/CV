@@ -67,7 +67,7 @@ Responsibilities
 
     Lead Web Developer
 
-    - Leading development of a Ruby on Rails website for Edinburgh University's entry to the
+    - Leading development of a Ruby on Rails [website](https://github.com/edinsolar/rails-website/tree/feature/move-over) for Edinburgh University's entry to the
       [World Solar Challenge](http://www.worldsolarchallenge.org/) in 2017.
 
 Skills
