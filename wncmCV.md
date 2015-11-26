@@ -3,6 +3,7 @@ William Mathewson
 
 email:  wncmathewson@me.com
 github: https://github.com/neanias
+linkedin: https://uk.linkedin.com/in/william-mathewson-b9a34a80
 mobile: +44 (0) 7547 155215
 
 Employment
@@ -16,26 +17,26 @@ Employment
 
 * **Wordeo Ltd.**
 
-    Intern, October 2013
-
-    - Worked on tagging clips in a large video library
-
-    Technical Intern, November 2013 - January 2014
-
-    - Continued tagging clips, but also helped with error logging and tracking down root causes of errors
-
     Ruby on Rails Developer, January - July 2014
 
     - Helped maintain Ruby on Rails backend API
     - Added functionality to Sinatra based tools which are still in use
     - Wrote Ruby scripts to help marketing promote the product
 
+    Technical Intern, November 2013 - January 2014
+
+    - Continued tagging clips, but also helped with error logging and tracking down root causes of errors
+
+    Intern, October 2013
+
+    - Worked on tagging clips in a large video library
+
 Education
 ---------
 
 * **University of Edinburgh**
 
-    Computer Science (BSc), September 2014 - present
+    Computer Science (BSc), September 2014 - June 2018 (Expected)
 
 * **Eton College**
 
@@ -66,7 +67,7 @@ Responsibilities
 
     Lead Web Developer
 
-    - Leading development of a Ruby on Rails website for Edinburgh University's entry to the
+    - Leading development of a Ruby on Rails [website](https://github.com/edinsolar/rails-website/tree/feature/move-over) for Edinburgh University's entry to the
       [World Solar Challenge](http://www.worldsolarchallenge.org/) in 2017.
 
 Skills
