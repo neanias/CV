@@ -1,0 +1,188 @@
+%------------------------------------
+% Dario Taraborelli
+% Typesetting your academic CV in LaTeX
+%
+% URL: http://nitens.org/taraborelli/cvtex
+% DISCLAIMER: This template is provided for free and without any guarantee
+% that it will correctly compile on your system if you have a non-standard
+% configuration.
+% Some rights reserved: http://creativecommons.org/licenses/by-sa/3.0/
+%------------------------------------
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt, a4paper]{article}
+\usepackage{fontspec}
+
+% DOCUMENT LAYOUT
+\usepackage{geometry}
+\geometry{a4paper, textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in}
+\setlength\parindent{0in}
+
+% FONTS
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\defaultfontfeatures{Mapping=tex-text}
+\usepackage{fontspec}
+\setromanfont [Ligatures={Common}, Numbers={OldStyle}, Variant=01]{Linux Libertine O}
+\setmonofont[Scale=0.8]{Monaco}
+% \setmainfont[Ligatures={Common}, Numbers={OldStyle}, Variant=01,
+% BoldFont=LinLibertine_RB.otf}{}
+
+% ---- CUSTOM COMMANDS
+\chardef\&="E050
+\newcommand{\html}[1]{\href{#1}{\scriptsize\textsc{[html]}}}
+\newcommand{\pdf}[1]{\href{#1}{\scriptsize\textsc{[pdf]}}}
+\newcommand{\doi}[1]{\href{#1}{\scriptsize\textsc{[doi]}}}
+% ---- MARGIN YEARS
+\usepackage{marginnote}
+\newcommand{\amper{}}{\chardef\amper="E0BD }
+\newcommand{\years}[1]{\marginnote{\scriptsize #1}}
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt}
+\reversemarginpar
+
+% HEADINGS
+\usepackage{sectsty}
+\usepackage[normalem]{ulem}
+\sectionfont{\mdseries\upshape\Large}
+\subsectionfont{\mdseries\scshape\normalsize}
+\subsubsectionfont{\mdseries\upshape\large}
+
+% PDF SETUP
+% ---- FILL IN HERE THE DOC TITLE AND AUTHOR
+\usepackage[dvipdfm, bookmarks, colorlinks, breaklinks,
+% ---- FILL IN HERE THE TITLE AND AUTHOR
+    pdftitle={William Mathewson - Curriculum Vit\ae},
+    pdfauthor={William Mathewson},
+    pdfproducer={http://nitens.org/taraborelli/cvtex}
+]{hyperref}
+\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=MidnightBlue}
+
+% DOCUMENT
+\begin{document}
+{\LARGE William Mathewson}\\[1cm]
+
+Phone: \texttt{+44 (0) 7547 155215}\\
+Email: \href{mailto:wncmathewson@me.com}{wncmathewson@me.com}\\
+\textsc{url}: \href{http://wncmathewson.me}{http://wncmathewson.me}\\
+GitHub: \href{https://github.com/neanias}{https://github.com/neanias}\\
+LinkedIn: \href{https://uk.linkedin.com/in/william-mathewson}{https://uk.linkedin.com/in/william-mathewson}
+
+%%\hrule
+% \section*{Current position}
+% \emph{Emeritus Professor}, Institute for Advanced Study, Princeton
+
+% %%\hrule
+% \section*{Areas of specialization}
+%  Physics • Relativity theory
+
+% %%\hrule
+% \section*{Appointments held}
+% \noindent
+% \years{1903-1908}Swiss Patent Office, Bern\\
+% \years{1908-1911}University of Bern\\
+% \years{1911-1912}University of Zürich\\
+% \years{1912-1914}Charles University of Prague\\
+% \years{1914-1932}Prussian Academy of Sciences, Berlin\\
+% \years{1920-1930}University of Leiden\\
+% \years{1932-1955}Institute for Advanced Study, Princeton
+
+%\hrule
+\section*{Education}
+% \noindent
+\years{2014-2018} BSc (Hons) Computer Science, University of Edinburgh\\
+\begin{tabular}{l}
+  \emph{Currently studying, graduate June 2018}
+\end{tabular}
+
+\vspace{0.2cm}
+
+\years{2008-2013} A levels, Eton College\\
+
+\begin{tabular}{l r}
+  \emph{Mathematics} & A\\
+  \emph{Biology}     & B\\
+  \emph{Chemistry}   & B\\
+\end{tabular}
+
+%\hrule
+\section*{Work \& Experience}
+\noindent
+
+\years{Feb 2016 -\\ present} Student Developer at Sumdog Ltd\\
+\emph{Helped maintain the Ruby on Rails backend and admin portal. I have also
+  built a small rails app to run SQL queries against multiple servers and
+  tabulate the returned data.}\\
+\href{https://www.sumdog.com/}{https://www.sumdog.com/}\\
+
+
+\years{Jun - Jul 2015} Ruby on Rails Developer at Cake Technologies\\
+\emph{Helped maintain the Ruby on Rails backend API.}\\
+\href{http://www.thecakeapp.com/}{http://www.thecakeapp.com/}\\
+
+
+\years{Jan - Jul 2014} Ruby on Rails Developer at Wordeo Ltd\\
+\emph{Helped maintain the Ruby on Rails backend API. I added functionality
+  to Sinatra-based tools. I also wrote Ruby scripts to help the marketing
+  department promote the product.}\\
+
+
+\years{Nov 2013 - Jan 2014} Technical Intern at Wordeo Ltd\\
+\emph{Tagged clips in a large video library. I also helped with error logging
+  and tracking down root causes of errors.}\\
+
+
+\years{October 2013} Intern at Wordeo Ltd\\
+\emph{Worked on tagging clips in a large video library.}\\
+\href{http://wordeo.com/}{http://wordeo.com/}\\
+
+
+
+\years{Sept 2015 - May 2016} CompSoc Vice-President (Edinburgh University
+Computing Society)\\
+\emph{This position involved organising monthly tech talks which involved
+  contacting companies and individuals to come and talk to members about
+  how/what they do.}\\
+\href{http://comp-soc.com/}{http://comp-soc.com/}\\
+
+
+\years{Sept 2015 -\\ present} Officer Cadet in the Edinburgh Universities' Royal
+Naval Unit
+
+\section*{Relevant Skills}
+
+\subsection*{Programming Languages}
+
+Ruby, Ruby on Rails, Python\\
+\emph{Very competent.}\\
+Java, C\\
+\emph{Quite competent, multiple coursework assignments.}
+
+\subsection*{Other}
+
+Git and git-flow workflow\\
+\emph{Regular use of git, git-flow as preferred branching model.}\\
+\*-nix command line\\
+\emph{Very competent, daily use.}
+
+
+\vfill{}
+%\hrulefill
+
+\begin{center}
+{\scriptsize  Last updated: \today\- •\-
+% ---- PLEASE LEAVE THIS BACKLINK FOR ATTRIBUTION AS PER CC-LICENSE
+Typeset in \href{http://nitens.org/taraborelli/cvtex}{
+\fontspec{Times New Roman}\XeTeX }\\
+% ---- FILL IN THE FULL URL TO YOUR CV HERE
+\href{http://nitens.org/taraborelli/cvtex}{http://nitens.org/taraborelli/cvtex}}
+\end{center}
+
+\end{document}
+
+% Local Variables:
+% TeX-engine: xetex
+% End:
