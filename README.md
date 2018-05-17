@@ -6,5 +6,5 @@ Written using [CVTex](http://nitens.org/taraborelli/cvtex) and shamelessly hacki
 To compile, run
 
 ```shell
-xelatex cv.tex
+xelatex cv.tex *or* latexmk -pdfxe cv.tex
 ```

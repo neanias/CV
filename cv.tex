@@ -26,7 +26,7 @@
 \usepackage{xltxtra}
 \defaultfontfeatures{Mapping=tex-text}
 \usepackage{fontspec}
-\setromanfont [Ligatures={Common}, Numbers={OldStyle}, Variant=01]{Linux Libertine O}
+\setromanfont[Ligatures={Common}, Numbers={OldStyle}, Variant=01]{Linux Libertine O}
 \setmonofont[Scale=0.8]{Monaco}
 % \setmainfont[Ligatures={Common}, Numbers={OldStyle}, Variant=01,
 % BoldFont=LinLibertine_RB.otf}{}
@@ -53,9 +53,10 @@
 
 % PDF SETUP
 % ---- FILL IN HERE THE DOC TITLE AND AUTHOR
-\usepackage[dvipdfm, bookmarks, colorlinks, breaklinks,
+\usepackage[%dvipdfm, 
+  bookmarks, colorlinks, breaklinks,
 % ---- FILL IN HERE THE TITLE AND AUTHOR
-    pdftitle={William Mathewson - Curriculum Vit\ae},
+    pdftitle={William Mathewson --- Curriculum Vit\ae},
     pdfauthor={William Mathewson},
     pdfproducer={http://nitens.org/taraborelli/cvtex}
 ]{hyperref}
@@ -67,27 +68,9 @@
 
 Phone: \texttt{+44 (0) 7547 155215}\\
 Email: \href{mailto:wncmathewson@me.com}{wncmathewson@me.com}\\
-\textsc{url}: \href{http://wncmathewson.me}{http://wncmathewson.me}\\
+%\textsc{url}: \href{http://wncmathewson.me}{http://wncmathewson.me}\\
 GitHub: \href{https://github.com/neanias}{https://github.com/neanias}\\
 LinkedIn: \href{https://uk.linkedin.com/in/william-mathewson}{https://uk.linkedin.com/in/william-mathewson}
-
-%\hrule
-\section*{Education}
-% \noindent
-\years{2014 - 2018} BSc (Hons) Computer Science, University of Edinburgh\\
-\begin{tabular}{l}
-  \emph{Currently studying, graduate June 2018}
-\end{tabular}
-
-\vspace{0.2cm}
-
-\years{2008 - 2013} A levels, Eton College\\
-
-\begin{tabular}{l r}
-  \emph{Mathematics} & A\\
-  \emph{Biology}     & B\\
-  \emph{Chemistry}   & B\\
-\end{tabular}
 
 %\hrule
 \section*{Work \& Experience}
@@ -95,7 +78,7 @@ LinkedIn: \href{https://uk.linkedin.com/in/william-mathewson}{https://uk.linkedi
 
 \years{Feb 2016 -\\ present} Student Developer at Sumdog Ltd\\
 \emph{Helped maintain the Ruby on Rails backend and admin portal. I have also
-  built a small rails app to run SQL queries against multiple servers and
+  built a small Rails app to run SQL queries against multiple servers and
   tabulate the returned data.}\\
 \href{https://www.sumdog.com/}{https://www.sumdog.com/}\\
 
@@ -135,29 +118,49 @@ Naval Unit
 
 \section*{Relevant Skills}
 
-\subsection*{Programming Languages}
+\subsection*{Programming Languages and Frameworks}
 
-Ruby, Ruby on Rails, Python\\
-\emph{Very competent.}\\
-Java, C, Haskell\\
-\emph{Quite competent, multiple coursework assignments.}
+Ruby \& Ruby on Rails, Python \& Flask, TypeScript, HTML5 \& CSS3 \\
+\emph{Very competent.} \\
+Java, C, Scala, Haskell, JavaScript, Elixir \\
+\emph{Quite competent. Several used for multiple coursework assignments.}
 
 \subsection*{Other}
 
-Git and git-flow workflow\\
-\emph{Regular use of git, git-flow as preferred branching model.}\\
-\**-nix command line\\
+PostgreSQL, Redis \\
+Git and git-flow workflow \\
+\emph{Regular use of git, git-flow as preferred branching model.} \\
+\**-nix command line \\
 \emph{Very competent, daily use.}
+
+
+%\hrule
+\section*{Education}
+% \noindent
+\years{2014--2018} BSc (Hons) Computer Science, University of Edinburgh\\
+\begin{tabular}{l}
+  \emph{Currently studying, graduate July 2018}
+\end{tabular}
+
+\vspace{0.2cm}
+
+\years{2008--2013} Eton College (A Levels, GCSEs) \\
+
+%\begin{tabular}{l r}
+%  \emph{Mathematics} & A\\
+%  \emph{Biology}     & B\\
+%  \emph{Chemistry}   & B\\
+%\end{tabular}
 
 
 \vfill{}
 %\hrulefill
 
 \begin{center}
-{\scriptsize  Last updated: \today\- •\-
+{\scriptsize %Last updated: \today\- •\-
 % ---- PLEASE LEAVE THIS BACKLINK FOR ATTRIBUTION AS PER CC-LICENSE
-Typeset in \href{http://nitens.org/taraborelli/cvtex}{
-\fontspec{Times New Roman}\XeTeX }\\
+Typeset in \href{http://nitens.org/taraborelli/cvtex}{%
+\fontspec{Times New Roman}\XeTeX}\\
 % ---- FILL IN THE FULL URL TO YOUR CV HERE
 \href{https://github.com/neanias/CV}{https://github.com/neanias/CV}}
 \end{center}
